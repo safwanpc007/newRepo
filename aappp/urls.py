@@ -6,5 +6,5 @@ app_name='aappp'
 
 urlpatterns = [
     # path('home',views.home),
-    path('home',views.customer,name='home.html'),
+    path('',views.customer,name='home.html'),
 ]
